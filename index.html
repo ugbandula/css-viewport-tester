@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html ng-app="demoApp">
+
+<head>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.9/angular.min.js"></script>
+  <script src="script.js"></script>
+</head>
+
+<body>
+  <div >
+    <h2>Example 1</h2>
+    <a href="" ng-click="setContext(2)">Click here to launch panel 1</a>
+    <br>
+  </div>
+
+  <div class="panel1" ng-show="isMyContext(2)">
+    <a href="" ng-click="setContext(1)">Close Panel</a>
+  </div>
+
+  <div class="row">
+    <div class="xs-col-4 sm-col-4 col-md-4 col-lg-4">
+      <div>
+        This is a sample panel with data
+      </div>
+    </div>
+
+    <div class="xs-col-8 sm-col-8 col-md-8 col-lg-8">
+      <h2>Example 2</h2>
+      <div>
+        This is the second panel
+        <br>
+        <a href="" ng-click="setContext(3)">Click here to launch panel 2</a>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="panel2" ng-show="isMyContext(3)">
+    <a href="" ng-click="setContext(1)">Close Panel</a>
+  </div>
+
+</body>
+
+</html>
