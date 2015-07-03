@@ -15,24 +15,24 @@ There are a few options you may find useful:
 # Example	
 
 HTML Code Sample
-<div id="welcome">
-   your content on screen 1
-</div>
- 
-<div id="projects">
-   your content on screen 2
-</div>
+	<div id="welcome">
+	   your content on screen 1
+	</div>
+	 
+	<div id="projects">
+	   your content on screen 2
+	</div>
 
 CSS Sample
-div#welcome {
-height: 100vh;
-background: black;
-}
- 
-div#projects {
-height: 100vh;
-background: yellow;
-}
+	div#welcome {
+	height: 100vh;
+	background: black;
+	}
+	 
+	div#projects {
+	height: 100vh;
+	background: yellow;
+	}
 
 # Viewport-percentage lenghts browser support
 All modern browsers do support this at the moment.
